@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<VBox
+        alignment="CENTER" spacing="10.0" xmlns="http://javafx.com/javafx"
+        xmlns:fx="http://javafx.com/fxml"
+        prefHeight="400.0" prefWidth="100.0"
+        fx:controller="org.example.observer.controller.ControlController"
+>
+
+<!--    <ImageView fx:id="logo">-->
+<!--        <Image-->
+<!--                url="@images/logo.png"-->
+<!--                requestedWidth="66"-->
+<!--                requestedHeight="36"-->
+<!--        />-->
+<!--    </ImageView>-->
+    <Slider fx:id="slider" maxWidth="100"/>
+    <Button fx:id="triggerBtn" text="Disparar"/>
+</VBox>
